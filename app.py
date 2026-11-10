@@ -22,15 +22,15 @@ try:
 
     conn = mysql.connector.connect( 
 
-        host=bzu9t0krsi4i7ny79nb5-mysql.services.clever-cloud.com, 
+        host="bzu9t0krsi4i7ny79nb5-mysql.services.clever-cloud.com", 
 
-        port=3306, 
+        port="3306", 
 
-        user=u2fzl9qh9s98elr8, 
+        user="u2fzl9qh9s98elr8", 
 
-        password=6DGwOB7FhWlIjx9IHDB7, 
+        password="6DGwOB7FhWlIjx9IHDB7", 
 
-        database=bzu9t0krsi4i7ny79nb5 
+        database="bzu9t0krsi4i7ny79nb5" 
 
     ) 
 
