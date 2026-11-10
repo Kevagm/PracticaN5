@@ -1,6 +1,5 @@
 import mysql.connector 
 
-
 import streamlit as st 
 
 st.title("Conexión con base de datos MySQL") 
@@ -23,15 +22,15 @@ try:
 
     conn = mysql.connector.connect( 
 
-        host= bzu9t0krsi4i7ny79nb5-mysql.services.clever-cloud.com, 
+        host= host, 
 
-        port="3306", 
+        port=port, 
 
-        user="u2fzl9qh9s98elr8", 
+        user=user, 
 
-        password="6DGwOB7FhWlIjx9IHDB7", 
+        password=password, 
 
-        database="bzu9t0krsi4i7ny79nb5" 
+        database=database 
 
     ) 
 
