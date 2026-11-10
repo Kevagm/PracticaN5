@@ -1,6 +1,5 @@
-import sys
-import os 
-sys.path.append(os.path.join(os.path.dirname(__file__),))
+import mysql.connector 
+
 
 import streamlit as st 
 
@@ -24,7 +23,7 @@ try:
 
     conn = mysql.connector.connect( 
 
-        host="bzu9t0krsi4i7ny79nb5-mysql.services.clever-cloud.com", 
+        host= bzu9t0krsi4i7ny79nb5-mysql.services.clever-cloud.com, 
 
         port="3306", 
 
