@@ -1,5 +1,3 @@
-import mysql.connector 
-
 import streamlit as st 
 
 st.title("Conexión con base de datos MySQL") 
