@@ -22,7 +22,7 @@ try:
 
     conn = mysql.connector.connect( 
 
-        host= host, 
+        host=host, 
 
         port=port, 
 
