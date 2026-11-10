@@ -2,7 +2,7 @@ import mysql.connector
 
 import streamlit as st 
 
-    st.title("Conexión con base de datos MySQL") 
+st.title("Conexión con base de datos MySQL") 
 
 # Obtener las credenciales almacenadas en Streamlit Secrets 
 
@@ -22,15 +22,15 @@ try:
 
     conn = mysql.connector.connect( 
 
-        host=host, 
+        host=bzu9t0krsi4i7ny79nb5-mysql.services.clever-cloud.com, 
 
-        port=port, 
+        port=3306, 
 
-        user=user, 
+        user=u2fzl9qh9s98elr8, 
 
-        password=password, 
+        password=6DGwOB7FhWlIjx9IHDB7, 
 
-        database=database 
+        database=bzu9t0krsi4i7ny79nb5 
 
     ) 
 
