@@ -2,7 +2,7 @@ import mysql.connector
 
 import streamlit as st 
 
-st.title("Conexión con base de datos MySQL") 
+    st.title("Conexión con base de datos MySQL") 
 
 # Obtener las credenciales almacenadas en Streamlit Secrets 
 
